@@ -22,7 +22,9 @@
 #### Things I did wrong
 
 * My biggest mistake is that I didn't use Redux so I used React State more than I wanted to and it proved to be very messy.
+* I ignored the font and followed the airtame style guide using Open Sans and some of your colours
 * I feel some of the code I wrote was messy and rushed
 * My checkForResult method is ugly and I shouldn't be passing the result as a string like that.
 * I felt this was a javascript heavy test and I should have focussed more on the styling sides because of the role that is available
+* I didn't put too many transitions in as I feel they should only be used in same occasions.
 * I would already rewrite this solution if I had more time.
