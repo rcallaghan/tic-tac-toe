@@ -33,7 +33,9 @@ const Button = styled.button`
 
     &:hover, &:focus {
         background: #25df88;
+        border-radius: 0;
         color: #fff;
+        transition: border-radius 0.5s ease;
     }
 `
 
