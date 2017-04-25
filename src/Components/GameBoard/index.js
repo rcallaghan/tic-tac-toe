@@ -40,14 +40,14 @@ export default class GameBoard extends Component {
     }
 
     handleClick(i){
-        let cells = this.state.cells
-        let winner = getWinner(cells)
+        const cells = this.state.cells
+        const winner = getWinner(cells)
 
         if(winner || cells[i]) {
             return
         }
         
-        let updatedBoard = cells
+        const updatedBoard = cells
         updatedBoard[i] = this.state.xIsNext ? 'X' : 'O';
 
         this.setState({
@@ -60,8 +60,8 @@ export default class GameBoard extends Component {
     }
 
     checkforResult(cells) {
-        let winner = getWinner(cells)
-        let draw = cells.every(item => item != null)
+        const winner = getWinner(cells)
+        const draw = cells.every(item => item != null)
         
         this.setState({
             result: winner ? `Player ${winner} has won the game!` : "" || draw ? "This game ended in a draw!" : ""
