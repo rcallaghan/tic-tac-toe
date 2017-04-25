@@ -1,4 +1,4 @@
-#### TECH STACK
+#### Tech stack
 
 * Create React App: https://github.com/facebookincubator/create-react-app
 * React
@@ -20,12 +20,12 @@ yarn start
 #### What additional steps would you take to make sure your code runs well in production and in the future. Ok, this is a silly example, we know tic-tac-toe probably won't break on us. But imagine if the board were 17x17, the rulebook 143 pages long and changing every year.
 
 * I would implement the NxN board
-* On the parent board I would pass through the amount of cells per row
+* On the parent board I would pass through the amount of items per board row
 * I would implement flow to use generics on data being passed through components
 * I would write tests using Jest to ensure that nothing failed
 
 
-#### what did you enjoy about the process of designing and implementing your solution? Is there anything you found frustrating?
+#### What did you enjoy about the process of designing and implementing your solution? Is there anything you found frustrating?
 
 * I enjoyed the fact I had never built something like this before and I learn a lot.
 * I found the test frustrating only because I was first attempting to implement a minimax algorithm and I was confused and lost.
@@ -37,5 +37,5 @@ yarn start
 * I feel some of the code I wrote was messy and rushed
 * My checkForResult method is ugly and I shouldn't be passing the result as a string like that.
 * I felt this was a javascript heavy test and I should have focussed more on the styling sides because of the role that is available
-* I didn't put too many transitions in as I feel they should only be used in same occasions.
+* I didn't put too many transitions in as I feel they should only be used in some occasions and not everywhere.
 * I would already rewrite this solution if I had more time.
