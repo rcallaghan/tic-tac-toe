@@ -1,3 +1,14 @@
+#### TECH STACK
+
+* Create React App: https://github.com/facebookincubator/create-react-app
+* React
+* Styled Components: https://github.com/styled-components/styled-components
+
+#### Installation & Run after extraction
+
+yarn install
+yarn start
+
 #### If it was your main project, what would be your next move? What do you think is missing to your solution?
 
 * I would use Redux to store the state
