@@ -29,7 +29,8 @@ export default class GameBoard extends Component {
         this.state = {
             cells: Array(9).fill(null),
             xIsNext: true,
-            result: null
+            result: null,
+            moves: 0
         }
         this.playAgain = this.playAgain.bind(this)
     }
@@ -53,6 +54,7 @@ export default class GameBoard extends Component {
         this.setState({
             cells: updatedBoard,
             xIsNext: !this.state.xIsNext,
+            moves: this.state.moves +1,
             result: winner
         })
 
